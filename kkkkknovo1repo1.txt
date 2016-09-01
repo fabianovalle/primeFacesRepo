@@ -1,0 +1,35 @@
+1_git clone https://github.com/fabianovalle/primeFacesRepo.git pastaNova
+(clona o que ja existe na nuvem para este diretorio, tudo é automatico,add,push,commit,
+ele reconhece o cominho).
+
+2_
+
+
+1 . criei um repo1 no git com conta.
+2 . clone ele vazio past2. git clone caminho...
+3 . entre em past2.
+4 . criei file em past2 add e commit.
+5 . git push pede login e senha e comita na nuvem seus arqs.
+
+1 . criei um repo2 no git com conta.
+2 . clone ele vazio past2. git clone caminho...
+3 . entre em past2.
+4 . criei file em past2 add e commit.
+5 . git push pede login e senha e comita na nuvem seus arqs.
+
+posso clonar uma repo vazio sobre um existente no local e depois comitar.
+
+
+#!/bin/bash
+
+-- 1.clonar repo publico, para local.
+git https://github.com/Javix/blog-jsf.git localTemp1
+
+-- 2.clonar do bitbucket.
+git push git@bitbucket.org:UserName:Senha/project-name.git localTemp2
+
+-- 3.Atualizar, unificar projeto em um diretorio e mandar pro bitbucket,
+- atualizado... - jointemp1_temp2
+
+-- 4.Publicar projeto no bitbucket.
+git push git@bitbucket.org:UserName:Senha/project-name.git/wiki localTemp2
